@@ -31,7 +31,8 @@ body {
 }
 
 .left-fixed-bar a,
-.left-fixed-bar .home-link {
+.left-fixed-bar .home-link,
+.left-fixed-bar .films-link {
     padding: 8px 24px;
     display: inline-block;
     color: #fff;
@@ -41,7 +42,8 @@ body {
 }
 
 .left-fixed-bar a:hover,
-.left-fixed-bar .home-link:hover {
+.left-fixed-bar .home-link:hover,
+.left-fixed-bar .films-link:hover {
     background: rgb(28, 72, 35);
     color: #fff;
     border-radius: 4px;
