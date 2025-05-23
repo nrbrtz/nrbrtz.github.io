@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #fff; /* Set page background to white */
+    background-color: #fff;
 }
 
 .left-fixed-bar {
@@ -22,12 +22,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center content vertically */
+    justify-content: center;
     text-align: center;
     color: #fff;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 700;
-    font-size: 1.3em; /* 30% bigger */
+    font-size: 1.3em;
 }
 
 .left-fixed-bar a,
@@ -86,7 +86,7 @@ body {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: rgb(113, 13, 25); /* Same as fixed bar */
+    color: rgb(113, 13, 25);
 }
 
 .section-content {
