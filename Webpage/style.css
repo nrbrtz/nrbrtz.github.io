@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital,wght@0,400;1,400&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fff; /* Set page background to white */
 }
@@ -24,6 +28,24 @@ body {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 700;
     font-size: 1.3em; /* 30% bigger */
+}
+
+.left-fixed-bar a,
+.left-fixed-bar .home-link {
+    padding: 8px 24px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.left-fixed-bar a:hover,
+.left-fixed-bar .home-link:hover {
+    background: rgb(28, 72, 35);
+    color: #fff;
+    border-radius: 4px;
+    border: none;
 }
 
 .header-row {
