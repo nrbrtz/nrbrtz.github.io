@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital,wght@0,400;1,400&display=swap');
+
+body {
+    background-color: #fff; /* Set page background to white */
+}
+
+.left-fixed-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background: rgb(113, 13, 25);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    text-align: center;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 1.3em; /* 30% bigger */
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+.header-title {
+    text-align: left;
+    font-size: 80px;
+    margin: 0;
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(28, 72, 35);
+}
+
+.header-year {
+    font-size: 28px;
+    margin-right: 40px;
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(28, 72, 35);
+}
+
+.section-title {
+    margin-left: 220px;
+    text-align: left;
+    font-size: 2.4em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(113, 13, 25); /* Same as fixed bar */
+}
+
+.section-content {
+    margin-left: 220px;
+    width: 500px;
+}
+
+.section-content p,
+div[style*="width:500px;"] p {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 1.2em;
+}
